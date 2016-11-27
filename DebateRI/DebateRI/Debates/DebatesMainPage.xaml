@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.Debates.DebatesMainPage"
+             Title="Debates">
+  <Label Text="La lista de debates va aqui" VerticalOptions="Center" HorizontalOptions="Center" />
+</ContentPage>

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using DebateRI.Mains;
+using DebateRI.Entities;
 
 using Xamarin.Forms;
 
@@ -41,7 +43,7 @@ namespace DebateRI
                 else
                 {
                     App.currentUser = userToBeChecked;
-                    App.Current.MainPage = new NavigationPage(new Home());
+                    App.Current.MainPage = new NavigationPage(new MainAdmin());
                     await Navigation.PopToRootAsync();
                 }
             }

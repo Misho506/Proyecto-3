@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.Sessions.SessionDetailPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness" iOS="0,40,0,0" />
+  </ContentPage.Padding>
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Duración :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Team1}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Descripción :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Team2}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Button x:Name="GoBack" Text="GoBack" Clicked="OnSignup"/>
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

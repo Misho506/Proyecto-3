@@ -38,28 +38,48 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DebatesHistoryPage.xaml.cs">
+    <Compile Include="Debates\DebatesHistoryPage.xaml.cs">
       <DependentUpon>DebatesHistoryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DebatesMainPage.xaml.cs">
+    <Compile Include="Debates\DebatesMainPage.xaml.cs">
       <DependentUpon>DebatesMainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
+    <Compile Include="Entities\Session.cs" />
+    <Compile Include="Mains\MainAdmin.xaml.cs">
+      <DependentUpon>MainAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="JSONResponse.cs" />
+    <Compile Include="Entities\JSONResponse.cs" />
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mains\MainAdviser.xaml.cs">
+      <DependentUpon>MainAdviser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mains\MainDebater.xaml.cs">
+      <DependentUpon>MainDebater.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mains\MainObserver.xaml.cs">
+      <DependentUpon>MainObserver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mains\MainPublic.xaml.cs">
+      <DependentUpon>MainPublic.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProfilePage.xaml.cs">
       <DependentUpon>ProfilePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Role.cs" />
+    <Compile Include="Entities\Role.cs" />
+    <Compile Include="Sessions\Argumentations.cs" />
+    <Compile Include="Sessions\SessionDetailPage.xaml.cs">
+      <DependentUpon>SessionDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sessions\SessionPage.xaml.cs">
+      <DependentUpon>SessionPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignupPage.xaml.cs">
       <DependentUpon>SignupPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="User.cs" />
+    <Compile Include="Entities\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -95,6 +115,9 @@
       <HintPath>..\..\packages\Xamarin.Forms.2.3.3.168\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Xamarin.iOS\v1.0\Xamarin.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LoginPage.xaml">
@@ -109,7 +132,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Home.xaml">
+    <EmbeddedResource Include="Mains\MainAdmin.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -121,13 +144,49 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DebatesMainPage.xaml">
+    <EmbeddedResource Include="Debates\DebatesMainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DebatesHistoryPage.xaml">
+    <EmbeddedResource Include="Debates\DebatesHistoryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sessions\SessionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mains\MainDebater.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mains\MainObserver.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mains\MainAdviser.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mains\MainPublic.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sessions\SessionDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
