@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.LoginPage"
+             Title="Ingresar"
+             BackgroundColor="#43A047">
+  <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" Padding="30, 120, 30, 20">
+    <StackLayout VerticalOptions="FillAndExpand"
+       HorizontalOptions="FillAndExpand"
+       Orientation="Vertical"
+       Spacing="15">
+
+      <Label Text="Por favor ingrese su correo y contraseña:" TextColor="#ffffff" FontSize="18"/>
+      <Entry x:Name="emailText" Placeholder="Correo Electronico" />
+      <Entry x:Name="passwordText" Placeholder="Contraseña" IsPassword="True" />
+      <Button x:Name="loginButton" Text="Ingresar" Clicked="OnLogin"/>
+
+      <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup"/>
+
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
