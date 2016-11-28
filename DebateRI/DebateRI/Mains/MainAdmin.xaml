@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Mains.MainAdmin"
             xmlns:local="clr-namespace:DebateRI">
-  <local:DebatesHistoryPage />
-  <local:DebatesMainPage />
+  <local:Debates.DebatesHistoryPage />
+  <local:Debates.DebatesMainPage />
   <local:ProfilePage />
+  <local:Sessions.Argumentation/>
+  <local:Sessions.Conclution/>
+  <local:Sessions.QuestionStage/>
+  <local:Sessions.InitialPosition/>
 </TabbedPage>

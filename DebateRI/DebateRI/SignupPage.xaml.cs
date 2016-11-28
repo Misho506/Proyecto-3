@@ -28,7 +28,7 @@ namespace DebateRI
                 string resourceAddress = "http://45.55.128.241:8080/DebateRI/v1/users";
 
                 //Role hardcoded cambiar!!!!!!!!!!!!
-                Role r = new Role { name = "role 1", roleId = 2, isAdmin = true };
+                Role r = new Role { roleId = 1, name = "role 1", isAdmin = true };
                 User userToBeChecked = new User { name = nameText.Text, lastName = lastNameText.Text, email = emailText.Text, passwordHash = passwordText.Text, role = r };
                 //Role hardcoded cambiar!!!!!!!!!!!!
 

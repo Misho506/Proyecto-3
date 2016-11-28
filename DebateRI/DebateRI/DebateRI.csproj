@@ -44,7 +44,11 @@
     <Compile Include="Debates\DebatesMainPage.xaml.cs">
       <DependentUpon>DebatesMainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Entities\Debate.cs" />
+    <Compile Include="Entities\Rule.cs" />
     <Compile Include="Entities\Session.cs" />
+    <Compile Include="Entities\Team.cs" />
+    <Compile Include="Entities\TimeKeeping.cs" />
     <Compile Include="Mains\MainAdmin.xaml.cs">
       <DependentUpon>MainAdmin.xaml</DependentUpon>
     </Compile>
@@ -70,6 +74,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Sessions\Argumentations.cs" />
+    <Compile Include="Sessions\Conclution.xaml.cs">
+      <DependentUpon>Conclution.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sessions\InitialPosition.xaml.cs">
+      <DependentUpon>InitialPosition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sessions\QuestionStage.xaml.cs">
+      <DependentUpon>QuestionStage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sessions\SessionDetailPage.xaml.cs">
       <DependentUpon>SessionDetailPage.xaml</DependentUpon>
     </Compile>
@@ -80,6 +93,15 @@
       <DependentUpon>SignupPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Teams\AddAdvisorsTeam.xaml.cs">
+      <DependentUpon>AddAdvisorsTeam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\AddObserversTeam.xaml.cs">
+      <DependentUpon>AddObserversTeam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\AddTeamDebaters.xaml.cs">
+      <DependentUpon>AddTeamDebaters.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -187,6 +209,42 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Sessions\SessionDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sessions\InitialPosition.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sessions\QuestionStage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sessions\Conclution.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Teams\AddAdvisorsTeam.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Teams\AddObserversTeam.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Teams\AddTeamDebaters.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
