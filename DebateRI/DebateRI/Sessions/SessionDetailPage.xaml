@@ -9,14 +9,14 @@
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
       <StackLayout Orientation="Horizontal">
         <Label Text="Duración :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
-        <Label Text="{Binding Team1}" FontSize="Medium" FontAttributes="Bold" />
+        <Label Text="{Binding Time}" FontSize="Medium" FontAttributes="Bold" />
       </StackLayout>
       <StackLayout Orientation="Horizontal">
         <Label Text="Descripción :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
-        <Label Text="{Binding Team2}" FontSize="Medium" FontAttributes="Bold" />
+        <Label Text="{Binding Description}" FontSize="Medium" FontAttributes="Bold" />
       </StackLayout>
       <StackLayout Orientation="Horizontal">
-        <Button x:Name="GoBack" Text="GoBack" Clicked="OnSignup"/>
+        <Button x:Name="GoBack" Text="GoBack" Clicked="BackClicked"/>
       </StackLayout>
     </StackLayout>
   </ContentPage.Content>

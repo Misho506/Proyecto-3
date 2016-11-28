@@ -9,14 +9,14 @@ namespace DebateRI.Entities
     class Session
     {
 
+        public Debate debate { get; set; }
+        public int IdSession { get; set; }
 
-        public int IdSession { get; private set; }
+        public string SessionName { get; set; }
 
-        public string SessionName { get; private set; }
+        public int Time { get; set; }
 
-        public int Time { get; private set; }
-
-        public string Description { get; private set; }
+        public string Description { get; set; }
 
         public Session(int idSession, string sessionName, int time, string description)
         {

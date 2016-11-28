@@ -17,18 +17,27 @@ namespace DebateRI.Sessions
         List<Session> session;
         public SessionDetailPage()
         {
-            GoBack.Clicked += GoBackButtonClicked;
+            GoBack.Clicked += BackClicked;
             InitializeComponent();
-        }
-        async void GoBackButtonClicked(object sender, EventArgs args)
-        {
-            if (listView.SelectedItem != null)
+
+            var timelbl = new Label
             {
-                var detailPage = new SessionDetailPage();
-                detailPage.BindingContext = e.SelectedItem as Session;
-                listView.SelectedItem = null;
-                await Navigation.PushModalAsync(detailPage);
-            }
+                FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                FontAttributes = FontAttributes.Bold
+            };
+            timelbl.SetBinding(Label.TextProperty, "Time");
+
+            var desciptionlbl = new Label
+            {
+                FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                FontAttributes = FontAttributes.Bold
+            };
+            desciptionlbl.SetBinding(Label.TextProperty, "Description");
+        }
+
+        async void BackClicked(object sender, EventArgs args)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }

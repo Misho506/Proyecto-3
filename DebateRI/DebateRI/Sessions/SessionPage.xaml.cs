@@ -11,22 +11,21 @@ namespace DebateRI.Sessions
 {
     public partial class SessionPage : ContentPage
     {
-        ListView listView;
         List<Session> session;
         public SessionPage()
         {
             SetupData();
-            listView.ItemsSource = session;
-            listView.ItemSelected += OnItemSelected;
+            listViewObserver.ItemsSource = session;
+            listViewObserver.ItemSelected += OnItemSelected;
             InitializeComponent();
         }
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            if (listView.SelectedItem != null)
+            if (listViewObserver.SelectedItem != null)
             {
-                var detailPage = new DetailSessionPage();
+                var detailPage = new SessionDetailPage();
                 detailPage.BindingContext = e.SelectedItem as Session;
-                listView.SelectedItem = null;
+                listViewObserver.SelectedItem = null;
                 await Navigation.PushModalAsync(detailPage);
             }
         }
