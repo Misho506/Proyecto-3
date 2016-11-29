@@ -38,10 +38,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Debates\DebatesHistoryPage.xaml.cs">
+    <Compile Include="DebatesHistoryPage.xaml.cs">
       <DependentUpon>DebatesHistoryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Debates\DebatesMainPage.xaml.cs">
+    <Compile Include="DebatesMainPage.xaml.cs">
       <DependentUpon>DebatesMainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entities\Debate.cs" />
@@ -73,20 +73,20 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Role.cs" />
-    <Compile Include="Sessions\Argumentations.cs" />
-    <Compile Include="Sessions\Conclution.xaml.cs">
+    <Compile Include="Argumentations.cs" />
+    <Compile Include="Conclution.xaml.cs">
       <DependentUpon>Conclution.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sessions\InitialPosition.xaml.cs">
+    <Compile Include="InitialPosition.xaml.cs">
       <DependentUpon>InitialPosition.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sessions\QuestionStage.xaml.cs">
+    <Compile Include="QuestionStage.xaml.cs">
       <DependentUpon>QuestionStage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sessions\SessionDetailPage.xaml.cs">
+    <Compile Include="SessionDetailPage.xaml.cs">
       <DependentUpon>SessionDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sessions\SessionPage.xaml.cs">
+    <Compile Include="SessionPage.xaml.cs">
       <DependentUpon>SessionPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="SignupPage.xaml.cs">
@@ -166,19 +166,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Debates\DebatesMainPage.xaml">
+    <EmbeddedResource Include="DebatesMainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Debates\DebatesHistoryPage.xaml">
+    <EmbeddedResource Include="DebatesHistoryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sessions\SessionPage.xaml">
+    <EmbeddedResource Include="SessionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -208,25 +208,25 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sessions\SessionDetailPage.xaml">
+    <EmbeddedResource Include="SessionDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sessions\InitialPosition.xaml">
+    <EmbeddedResource Include="InitialPosition.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sessions\QuestionStage.xaml">
+    <EmbeddedResource Include="QuestionStage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sessions\Conclution.xaml">
+    <EmbeddedResource Include="Conclution.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -249,6 +249,7 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.168\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.168\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DebateRI.Sessions {
+namespace DebateRI {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;

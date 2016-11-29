@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace DebateRI.Sessions
+namespace DebateRI
 {
     class Argumentations : ContentPage
     {
-
+        
         Label Sec = new Label()
         {
             HorizontalOptions = LayoutOptions.Center,
@@ -24,6 +24,7 @@ namespace DebateRI.Sessions
         int sec = 00;
         public Argumentations()
         {
+            this.Title = "Argumentaciones";
             HourAndMin.Text = hour + ":0" + min;
             HourAndMin.FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label));
             Sec.Text = " " + sec;

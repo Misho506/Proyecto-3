@@ -8,21 +8,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DebateRI.Sessions {
+namespace DebateRI {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
     
     
-    public partial class SessionDetailPage : global::Xamarin.Forms.ContentPage {
+    public partial class Conclution : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button GoBack;
+        private global::Xamarin.Forms.Label ConclutionLBL;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry entryConclution;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(SessionDetailPage));
-            GoBack = this.FindByName<global::Xamarin.Forms.Button>("GoBack");
+            this.LoadFromXaml(typeof(Conclution));
+            ConclutionLBL = this.FindByName<global::Xamarin.Forms.Label>("ConclutionLBL");
+            entryConclution = this.FindByName<global::Xamarin.Forms.Entry>("entryConclution");
         }
     }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DebateRI.Entities;
-using DebateRI.Sessions;
+using DebateRI;
 
 using Xamarin.Forms;
 
-namespace DebateRI.Sessions
+namespace DebateRI
 {
     public partial class SessionDetailPage : ContentPage
     {

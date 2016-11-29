@@ -7,7 +7,7 @@ using DebateRI.Entities;
 
 using Xamarin.Forms;
 
-namespace DebateRI.Sessions
+namespace DebateRI
 {
     public partial class SessionPage : ContentPage
     {

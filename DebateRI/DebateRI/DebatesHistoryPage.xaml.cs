@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace DebateRI.Debates
+namespace DebateRI
 {
     public partial class DebatesHistoryPage : ContentPage
     {

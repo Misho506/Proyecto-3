@@ -7,8 +7,6 @@
        HorizontalOptions="FillAndExpand"
        Orientation="Vertical"
        Spacing="15">
-
-    <Label x:Name="nameLabel" VerticalOptions="Center" HorizontalOptions="Center" />
     <Label x:Name="nameLabel" Text="{Binding App.currentUser.role.roleId}" VerticalOptions="Center" HorizontalOptions="Center" />
   </StackLayout>
   

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace DebateRI.Sessions
+namespace DebateRI
 {
     public partial class QuestionStage : ContentPage
     {
