@@ -74,5 +74,8 @@ C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.InitialPosition.xaml.g.cs
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.QuestionStage.xaml.g.cs
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.Conclution.xaml.g.cs
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.Argumentation.xaml.g.cs
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.CreateDebate.xaml.g.cs
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.AddRule.xaml.g.cs
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.dll.mdb
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\bin\Debug\DebateRI.dll.mdb

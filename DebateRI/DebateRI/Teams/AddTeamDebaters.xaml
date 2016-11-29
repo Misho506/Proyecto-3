@@ -18,6 +18,6 @@
       <ListView x:Name="SelectedTeam2ListView"/>
       <!--<Button x:Name="SendEmail2" Text="Invitar Grupo2"/>-->
     </StackLayout>
-
+    <Button x:Name="addAdvisors" Text="Agregar asesores" Clicked="AddAdvisorsClicked"/>
   </StackLayout>
 </ContentPage>

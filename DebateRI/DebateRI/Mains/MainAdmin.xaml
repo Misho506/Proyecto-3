@@ -6,8 +6,5 @@
   <local:DebatesHistoryPage/>
   <local:DebatesMainPage/>
   <local:ProfilePage/>
-  <local:Argumentations/>
-  <local:Conclution/>
-  <local:QuestionStage/>
-  <local:InitialPosition/>
+  <local:CreateDebate/>
 </TabbedPage>

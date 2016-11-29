@@ -15,8 +15,7 @@
 
     <Entry x:Name="Question" Placeholder="Digite su pregunta" />
     <Button Text="Envie su pregunta" Clicked="SendQuestionCliked"/>
-    <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White">
-    </ListView>
+    <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
   </StackLayout>
   <Button Text="Pasar a la conclusion" />
   <Button Text="Devolverse a las argumentaciones"/>

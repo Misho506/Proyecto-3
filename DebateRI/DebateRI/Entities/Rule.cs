@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace DebateRI.Entities
 {
-    class Rule
+    public class Rule
     {
         public int ruleId { get; set; }
         public DateTime creationDate { get; set; }
         public string description { get; set; }
+
+        public Rule()
+        {
+        }
     }
 }

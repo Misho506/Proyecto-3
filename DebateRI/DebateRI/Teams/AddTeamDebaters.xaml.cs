@@ -66,13 +66,13 @@ namespace DebateRI.Teams
                 {
                     team1.Add(new User(newUser.userId, newUser.name, newUser.lastName, newUser.email, newUser.passwordHash, newUser.joinDate));
                     SelectedTeam1ListView.ItemsSource = team1;
-                    //emailsTeam1 = contact1.Email.ToString() + "; ";
+
                 }
                 else if (counter <= 3)
                 {
                     team2.Add(new User(newUser.userId, newUser.name, newUser.lastName, newUser.email, newUser.passwordHash, newUser.joinDate));
                     SelectedTeam2ListView.ItemsSource = team2;
-                    //emailsTeam2 = contact1.Email + "; ";
+
                 }
                 counter--;
                 TeamDebaters.Text = "Tienes que agregar '" + counter + "' Debatientes";
@@ -96,26 +96,9 @@ namespace DebateRI.Teams
             IEnumerable<User> searchResult = User.Where(CompletName => CompletName.ToString().Contains(keyword));
             ContactsListView.ItemsSource = searchResult;
         }
-        //void SendEmail1Clicked(object sender, EventArgs args)
-        //{
-        //    body = "Saludos, has sido invitado al debate...." + "\r\n" + "Como parte del Grupo 1";
-        //    var uriString = "mailto:mauriciolr_9@hotmail.com";
-        //    uriString += ";" + "mailto:misho01@gmail.com";
-        //    email = new Uri(uriString + "?subject=Invitacion de Debate&body=" + body);
-        //    Device.OpenUri(email);
-        //    MailMessage;
-
-        //}
-
-        //void SendEmail2Clicked(object sender, EventArgs args)
-        //{
-        //    body = "Saludos, has sido invitado al debate...." + "\r\n" + "Como parte del Grupo 2";
-        //    //SelectedTeam1ListView.SelectedItem = null;
-        //    email = new Uri("mailto:" + emailsTeam2 + "?subject=Invitacion de Debate&body=" + body);
-        //    Device.OpenUri(email);
-        //    //await DisplayAlert("Completado", "Envio con exito", "OK");
-
-        //    //Device.OpenUri(email);
-        //}
+        async void AddAdvisorsClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddAdvisorsTeam());
+        }
     }
 }

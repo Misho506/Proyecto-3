@@ -94,5 +94,9 @@ namespace DebateRI.Teams
             ContactsListView.ItemsSource = searchResult;
             //SearchBarTeam1.Text = null;
         }
+        async void AddObserversClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddObserversTeam());
+        }
     }
 }

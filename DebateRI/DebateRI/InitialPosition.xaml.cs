@@ -16,7 +16,7 @@ namespace DebateRI
         }
         async void OnPass(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Argumentations());
+            await Navigation.PushModalAsync(new Argumentation());
         }
     }
 }

@@ -18,6 +18,7 @@
       <Label x:Name="Team2" Text="Grupo 2"/>
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
-
+    
+    <Button x:Name="backMain" Text="Agregar asesores" Clicked="BackMainClicked"/>
   </StackLayout>
 </ContentPage>

@@ -20,11 +20,12 @@ C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\and
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Collections.dll
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Linq.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.IO.dll
@@ -40,7 +41,6 @@ C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\and
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
-C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll

@@ -18,9 +18,6 @@
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
 
-    <StackLayout>
-      <Button Text="Siguiente" />
-    </StackLayout>
-
+    <Button x:Name="addObservers" Text="Agregar asesores" Clicked="AddObserversClicked"/>
   </StackLayout>
 </ContentPage>

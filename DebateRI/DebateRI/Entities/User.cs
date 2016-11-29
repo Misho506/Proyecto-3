@@ -30,5 +30,9 @@ namespace DebateRI.Entities
         public User()
         {
         }
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }

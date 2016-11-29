@@ -11,6 +11,9 @@ namespace DebateRI
     public partial class App : Application
     {
         public static User currentUser { get; set; }
+
+        public static Rule currentRule { get; set; }
+
         public App()
         {
             InitializeComponent();

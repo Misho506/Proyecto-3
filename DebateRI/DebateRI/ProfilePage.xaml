@@ -8,6 +8,8 @@
        Orientation="Vertical"
        Spacing="15">
     <Label x:Name="nameLabel" Text="{Binding App.currentUser.role.roleId}" VerticalOptions="Center" HorizontalOptions="Center" />
+    <!--<Label x:Name="ruleLabel" Text="{Binding App.currentRule.description}" VerticalOptions="Center" HorizontalOptions="Center" />-->
+    <!--<Button x:Name="AddRule" Text="Editar reglamento de vestimenta" Clicked="AddRuleClicked"/>-->
   </StackLayout>
   
 </ContentPage>
