@@ -21,6 +21,10 @@ namespace DebateRI
             Question.Placeholder = "Digite su pregunta";
             listView.ItemsSource = questions;
         }
+        async void OnPassClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NewArgumentation());
+        }
 
     }
 }

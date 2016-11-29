@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.ProfilePage"
-             Title="Mi Perfil">
-  <StackLayout VerticalOptions="FillAndExpand"
-       HorizontalOptions="FillAndExpand"
-       Orientation="Vertical"
-       Spacing="15">
-    <Label x:Name="nameLabel" Text="{Binding App.currentUser.role.roleId}" VerticalOptions="Center" HorizontalOptions="Center" />
-    <!--<Label x:Name="ruleLabel" Text="{Binding App.currentRule.description}" VerticalOptions="Center" HorizontalOptions="Center" />-->
-    <!--<Button x:Name="AddRule" Text="Editar reglamento de vestimenta" Clicked="AddRuleClicked"/>-->
+             Title="Perfil">
+  <StackLayout>
+    <Label x:Name="NameLBL" Text=" " FontSize="Medium" FontAttributes="Bold" TextColor="Green"/>
+
+    <Label x:Name="RuleLBL" Text=" " FontAttributes="Bold" TextColor="Green" FontSize="Medium"/>
+    
+    <Button Text="Secciones" VerticalOptions="EndAndExpand" Clicked="CheckSessionClicked" TextColor="Green" />
+    <Button Text="Reglamento de vestimenta" VerticalOptions="EndAndExpand" Clicked="DressCodeClicked" TextColor="Green" />
   </StackLayout>
-  
+
 </ContentPage>

@@ -10,17 +10,20 @@ using Xamarin.Forms;
 namespace DebateRI
 {
     public partial class AddRule : ContentPage
-    {
-        
+    {        
         public AddRule()
         {
             InitializeComponent();
+            newRule.Placeholder = "'Reglamento'";
+            CreateRule.Clicked += CreateRuleClicked;
         }
         void CreateRuleClicked(object sender, EventArgs args)
         {
+            confirmedRule.Text = "";
             confirmedRule.Text = newRule.Text;
-            App.currentRule.description = confirmedRule.Text;
-            newRule.Placeholder = "Reglamento";
+            //App.currentRule.description = "";
+            //App.currentRule.description = confirmedRule.Text;
+
         }
     }
 }

@@ -16,13 +16,20 @@ namespace DebateRI
         public ProfilePage()
         {
             InitializeComponent();
-            nameLabel.Text = "Bienvenido " + App.currentUser.name;
-            //ruleLabel.Text = "Reglemento: \n" + App.currentRule.description;
+            NameLBL.Text = "Bienvenido: \n" + App.currentUser.name;
+            //if (App.currentRule.description != null)
+            //{
+            //    RuleLBL.Text = "Reglemento: \n" + App.currentRule.description;
+            //}
         }
-        //async void AddRuleClicked(object sender, EventArgs args)
-        //{
-        //    await Navigation.PushAsync(new AddRule());
-        //}
+        async void CheckSessionClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new InitialPosition());
+        }
+        async void DressCodeClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new AddRule());
+        }
 
     }
 }

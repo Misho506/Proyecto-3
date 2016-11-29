@@ -23,10 +23,14 @@ namespace DebateRI {
         private global::Xamarin.Forms.Entry newRule;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button CreateRule;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AddRule));
             confirmedRule = this.FindByName<global::Xamarin.Forms.Label>("confirmedRule");
             newRule = this.FindByName<global::Xamarin.Forms.Entry>("newRule");
+            CreateRule = this.FindByName<global::Xamarin.Forms.Button>("CreateRule");
         }
     }
 }
