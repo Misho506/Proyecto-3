@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.QuestionStage"
+             Title="Preguntas">
+  
+  <StackLayout VerticalOptions="FillAndExpand"
+   HorizontalOptions="FillAndExpand"
+   Orientation="Vertical"
+   Padding="0,35,0,0"
+   Spacing="10">
+
+
+    <Label Text="Preguntas" TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"/>
+
+    <Entry x:Name="Question" Placeholder="Digite su pregunta" />
+    <Button Text="Envie su pregunta" Clicked="SendQuestionCliked"/>
+    <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
+  </StackLayout>
+  <Button Text="Pasar a la conclusion" />
+  <Button Text="Devolverse a las argumentaciones"/>
+  
+</ContentPage>

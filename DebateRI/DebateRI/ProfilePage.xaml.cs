@@ -12,12 +12,17 @@ namespace DebateRI
 {
     public partial class ProfilePage : ContentPage
     {
-        HttpClient httpClient;
+        //HttpClient httpClient;
         public ProfilePage()
         {
             InitializeComponent();
             nameLabel.Text = "Bienvenido " + App.currentUser.name;
+            //ruleLabel.Text = "Reglemento: \n" + App.currentRule.description;
         }
+        //async void AddRuleClicked(object sender, EventArgs args)
+        //{
+        //    await Navigation.PushAsync(new AddRule());
+        //}
 
     }
 }

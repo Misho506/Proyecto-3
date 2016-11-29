@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.Argumentation"
+             Title="Argumentaciones">
+  <StackLayout>
+    <Label x:Name="minutes" Text="Minutos para hablar" TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"/>
+    <Label x:Name="timeLabel" Text="Tiempo: " TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"/>
+    <Button x:Name="AddMin" Text="Agregar un minuto" Clicked="AddMinClicked"/>
+    <Button x:Name="LessMin" Text="Quitar un minuto" Clicked="LessMinClicked"/>
+    <Button x:Name="Star" Text="Iniciar conteo" Clicked="StarClicked"/>
+  </StackLayout>
+</ContentPage>

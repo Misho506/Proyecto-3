@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.InitialPosition"
+             Title="Posición inicial">
+  
+  <StackLayout VerticalOptions="FillAndExpand"
+    HorizontalOptions="FillAndExpand"
+    Orientation="Vertical"
+    Padding="0,75,0,20"
+    Spacing="10">
+
+    <Label Text="De su posición inicial"  TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"  />
+
+    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="OnPass" TextColor="Green" />
+
+  </StackLayout>
+</ContentPage>
