@@ -22,6 +22,10 @@ namespace DebateRI
             //    RuleLBL.Text = "Reglemento: \n" + App.currentRule.description;
             //}
         }
+        async void ChatClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Teams.TeamsChat());
+        }
         async void CheckSessionClicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new InitialPosition());

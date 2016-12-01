@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.Teams.TeamsChat">
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label x:Name="TeamDebaters" Text="Conversación grupal" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <ListView x:Name="messagesList" />
+
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Entry x:Name="message" Placeholder="Escriba su  mensaje" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Button x:Name="sendMessage" Text="Enviar" TextColor="White" BackgroundColor="#43A047" Clicked="sendMessageClicked"/>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
