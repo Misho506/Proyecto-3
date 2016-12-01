@@ -6,17 +6,17 @@
     <OnPlatform x:TypeArguments="Thickness" iOS="0,40,0,0" />
   </ContentPage.Padding>
   <ContentPage.Content>
-    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-      <StackLayout Orientation="Horizontal">
-        <Label Text="Duración :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
-        <Label Text="{Binding Time}" FontSize="Medium" FontAttributes="Bold" />
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#F5F5F5">
+      <StackLayout Orientation="Horizontal" BackgroundColor="#F5F5F5">
+        <Label Text="Duración :" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Time}" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       </StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="Descripción :" FontSize="Medium" HorizontalOptions="FillAndExpand" />
-        <Label Text="{Binding Description}" FontSize="Medium" FontAttributes="Bold" />
+      <StackLayout Orientation="Horizontal" BackgroundColor="#F5F5F5">
+        <Label Text="Descripción :" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Description}" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       </StackLayout>
-      <StackLayout Orientation="Horizontal">
-        <Button x:Name="GoBack" Text="GoBack" Clicked="BackClicked"/>
+      <StackLayout Orientation="Horizontal" BackgroundColor="#F5F5F5">
+        <Button x:Name="GoBack" Text="GoBack" Clicked="BackClicked" TextColor="White" BackgroundColor="#43A047"/>
       </StackLayout>
     </StackLayout>
   </ContentPage.Content>

@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.ProfilePage"
              Title="Perfil">
-  <StackLayout>
-    <Label x:Name="NameLBL" Text=" " FontSize="Medium" FontAttributes="Bold" TextColor="Green"/>
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label x:Name="NameLBL" Text=" " FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
 
-    <Label x:Name="RuleLBL" Text=" " FontAttributes="Bold" TextColor="Green" FontSize="Medium"/>
+    <Label x:Name="RuleLBL" Text=" " FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
     
-    <Button Text="Secciones" VerticalOptions="EndAndExpand" Clicked="CheckSessionClicked" TextColor="Green" />
-    <Button Text="Reglamento de vestimenta" VerticalOptions="EndAndExpand" Clicked="DressCodeClicked" TextColor="Green" />
+    <Button Text="Secciones" VerticalOptions="EndAndExpand" Clicked="CheckSessionClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Button Text="Reglamento de vestimenta" VerticalOptions="EndAndExpand" Clicked="DressCodeClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 
 </ContentPage>

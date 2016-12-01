@@ -4,7 +4,7 @@
              x:Class="DebateRI.SessionPage"
              Title="Sesiones">
 
-  <StackLayout>
-    <ListView x:Name="listViewObserver" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="White"/>
-</StackLayout>
+  <StackLayout BackgroundColor="#F5F5F5">
+    <ListView x:Name="listViewObserver" VerticalOptions="FillAndExpand" SeparatorVisibility="None" />
+  </StackLayout>
 </ContentPage>

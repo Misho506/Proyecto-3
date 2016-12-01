@@ -2,23 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Teams.AddObserversTeam">
-  <StackLayout>
-    <Label x:Name="TeamAdvisors" FontSize="Medium" FontAttributes="Bold" />
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label x:Name="TeamAdvisors" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
     <SearchBar x:Name="SearchBarAdvisors"
                SearchButtonPressed = "OnSearchButtonPressed"/>
     <ListView x:Name="ContactsListView" />
-    <Button Text="Agregar al grupo 2" Clicked="ChangeTeamButtonClicked"/>
+    <Button Text="Agregar al grupo 2" TextColor="White" BackgroundColor="#43A047" Clicked="ChangeTeamButtonClicked"/>
 
-    <StackLayout>
-      <Label x:Name="Team1" Text="Grupo 1"/>
+    <StackLayout BackgroundColor="#F5F5F5" >
+      <Label x:Name="Team1" Text="Grupo 1" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam1ListView" />
     </StackLayout>
 
-    <StackLayout>
-      <Label x:Name="Team2" Text="Grupo 2"/>
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Label x:Name="Team2" Text="Grupo 2" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
     
-    <Button x:Name="backMain" Text="Agregar asesores" Clicked="BackMainClicked"/>
+    <Button x:Name="backMain" Text="Agregar asesores" TextColor="White" BackgroundColor="#43A047" Clicked="BackMainClicked"/>
   </StackLayout>
 </ContentPage>

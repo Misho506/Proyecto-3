@@ -11,8 +11,8 @@
        Spacing="15">
 
       <Label Text="Por favor ingrese su correo y contraseña:" TextColor="#ffffff" FontSize="18"/>
-      <Entry x:Name="emailText" Placeholder="Correo Electronico" />
-      <Entry x:Name="passwordText" Placeholder="Contraseña" IsPassword="True" />
+      <Entry x:Name="emailText" Text="maurisho01@gmail.com" Placeholder="Correo Electronico" />
+      <Entry x:Name="passwordText" Text="12345" Placeholder="Contraseña" IsPassword="True" />
       <Button x:Name="loginButton" Text="Ingresar" Clicked="OnLogin"/>
 
       <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup"/>

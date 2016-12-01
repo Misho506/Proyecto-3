@@ -7,11 +7,12 @@
     HorizontalOptions="FillAndExpand"
     Orientation="Vertical"
     Padding="0,75,0,20"
-    Spacing="10">
+    Spacing="10"
+    BackgroundColor="#F5F5F5">
 
-    <Label Text="De su posición inicial"  TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"  />
+    <Label Text="De su posición inicial"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"  />
 
-    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="OnPassClicked" TextColor="Green" />
+    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="OnPassClicked" TextColor="White" BackgroundColor="#43A047"/>
 
   </StackLayout>
 </ContentPage>

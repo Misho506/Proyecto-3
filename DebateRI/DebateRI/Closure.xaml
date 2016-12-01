@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Closure">
 
-  <StackLayout>
+  <StackLayout BackgroundColor="#F5F5F5">
 
-    <Label x:Name="ClosureLBL"  TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand" />
-    <Entry x:Name="entryClosure"/>
-    <Button Text="Crear conclusion" Clicked="SendClosure"/>
-    <Button Text="Finalizar debate" Clicked="CloseDebateClicked"/>
+    <Label x:Name="ClosureLBL"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand" />
+    <Entry x:Name="entryClosure" PlaceholderColor="#424242"/>
+    <Button Text="Crear conclusion" Clicked="SendClosure" TextColor="White" BackgroundColor="#43A047"/>
+    <Button Text="Finalizar debate" Clicked="CloseDebateClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

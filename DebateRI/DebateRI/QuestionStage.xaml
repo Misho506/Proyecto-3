@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.QuestionStage">
 
-  <StackLayout >
-    <Label Text="Preguntas" TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"/>
-    <Entry x:Name="Question" Placeholder="Digite su pregunta" />
-    <Button Text="Envie su pregunta" Clicked="SendQuestionCliked"/>
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label Text="Preguntas" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
+    <Entry x:Name="Question" Placeholder="Digite su pregunta" PlaceholderColor="#424242"/>
+    <Button Text="Envie su pregunta" Clicked="SendQuestionCliked" TextColor="White" BackgroundColor="#43A047"/>
     <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
-    <Button Text="Pasar a la conclusion" Clicked="OnPassClicked"/>
+    <Button Text="Pasar a la conclusion" Clicked="OnPassClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
   
 

@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.CreateDebate"
              Title="Crear Debate">
-  <StackLayout>
-    <Label Text="Nombre:" FontSize="Medium" FontAttributes="Bold" TextColor="Green"/>
-    <Entry x:Name="debateName" Placeholder="'Nombre del debate'"/>
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label Text="Nombre:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <Entry x:Name="debateName" Placeholder="'Nombre del debate'" PlaceholderColor="#424242"/>
 
-    <Label Text="Sesiones del debate: " FontAttributes="Bold" TextColor="Green" FontSize="Medium"/>
-    <ListView x:Name="debateSessions" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
+    <Label Text="Sesiones del debate: " FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <ListView x:Name="debateSessions" VerticalOptions="FillAndExpand" />
 
-    <Button Text="Crear Grupos" VerticalOptions="EndAndExpand" Clicked="CreateTeamsClicked" TextColor="Green" />
+    <Button Text="Crear Grupos" VerticalOptions="EndAndExpand" Clicked="CreateTeamsClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>
