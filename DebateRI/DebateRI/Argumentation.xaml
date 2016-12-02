@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Argumentation"
              Title="Argumentaciones">
-  <StackLayout BackgroundColor="#F5F5F5">
+  <StackLayout VerticalOptions="FillAndExpand"
+    HorizontalOptions="FillAndExpand"
+    Orientation="Vertical"
+    Padding="0,75,0,20"
+    Spacing="7"
+    BackgroundColor="#F5F5F5">
     <Label x:Name="minutes" Text="Minutos para hablar" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
     <Label x:Name="timeLabel" Text="Tiempo: " FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
     <Button x:Name="AddMin" Text="Agregar un minuto" Clicked="AddMinClicked" TextColor="White" BackgroundColor="#43A047"/>

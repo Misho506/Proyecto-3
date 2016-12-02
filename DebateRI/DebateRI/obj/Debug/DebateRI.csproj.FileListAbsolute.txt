@@ -81,3 +81,5 @@ C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.Teams.TeamsChat.xaml.g.cs
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.dll.mdb
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\bin\Debug\DebateRI.dll.mdb
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\obj\Debug\DebateRI.dll.mdb
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI\bin\Debug\DebateRI.dll.mdb

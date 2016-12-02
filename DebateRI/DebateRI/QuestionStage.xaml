@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DebateRI.QuestionStage">
+             x:Class="DebateRI.QuestionStage"
+             Title="Preguntas">
 
-  <StackLayout BackgroundColor="#F5F5F5">
+  <StackLayout VerticalOptions="FillAndExpand"
+    HorizontalOptions="FillAndExpand"
+    Orientation="Vertical"
+    Padding="0,75,0,20"
+    Spacing="7"
+    BackgroundColor="#F5F5F5">
     <Label Text="Preguntas" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
     <Entry x:Name="Question" Placeholder="Digite su pregunta" PlaceholderColor="#424242"/>
     <Button Text="Envie su pregunta" Clicked="SendQuestionCliked" TextColor="White" BackgroundColor="#43A047"/>

@@ -7,7 +7,7 @@
     HorizontalOptions="FillAndExpand"
     Orientation="Vertical"
     Padding="0,75,0,20"
-    Spacing="10"
+    Spacing="7"
     BackgroundColor="#F5F5F5">
 
     <Label Text="De su posición inicial"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"  />

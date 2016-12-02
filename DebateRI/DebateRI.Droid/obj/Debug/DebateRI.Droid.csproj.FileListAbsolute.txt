@@ -125,5 +125,6 @@ C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\and
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\res\drawable\logoulatina.jpeg
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\obj\Debug\DebateRI.Droid.dll.mdb
 C:\Users\mauricio\Desktop\Pruebas\DebateRI\DebateRI\DebateRI.Droid\bin\Debug\DebateRI.Droid.dll.mdb

@@ -69,7 +69,7 @@ namespace DebateRI
         }
         async void OnPassClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Closure());
+            await Navigation.PushAsync(new Closure());
         }
     }
 }
