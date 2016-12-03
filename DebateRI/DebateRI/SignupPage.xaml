@@ -2,21 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.SignupPage"
-             Title="Registrarse"
-             BackgroundColor="#43A047">
+             Title="Registrarse">
   <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" Padding="30, 60, 30, 20">
     <StackLayout VerticalOptions="FillAndExpand"
        HorizontalOptions="FillAndExpand"
        Orientation="Vertical"
-       Spacing="15">
+       Spacing="7"
+       BackgroundColor="#F5F5F5">
+      <Image
+            HorizontalOptions="Center"
+        Source="LogoULatina.jpeg"  />
 
-      <Label Text="Por favor ingrese sus datos:" TextColor="#ffffff" FontSize="18"/>
-      <Entry x:Name="nameText" Placeholder="Nombre" />
-      <Entry x:Name="lastNameText" Placeholder="Apellido" />
-      <Entry x:Name="emailText" Placeholder="Correo Electronico" />
-      <Entry x:Name="passwordText" Placeholder="Contraseña" IsPassword="True" />
-      <Entry x:Name="passwordConfirmtText" Placeholder="Verifique la contraseña" IsPassword="True" />
-      <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup"/>
+      <Label Text="Por favor ingrese sus datos:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Entry x:Name="nameText" Placeholder="Nombre" TextColor="#212121"/>
+      <Entry x:Name="lastNameText" Placeholder="Apellido" TextColor="#212121"/>
+      <Entry x:Name="emailText" Placeholder="Correo Electronico" TextColor="#212121"/>
+      <Entry x:Name="passwordText" Placeholder="Contraseña" IsPassword="True" TextColor="#212121"/>
+      <Entry x:Name="passwordConfirmtText" Placeholder="Verifique la contraseña" IsPassword="True" TextColor="#212121"/>
+      <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup" TextColor="White" BackgroundColor="#43A047"/>
 
     </StackLayout>
   </ScrollView>

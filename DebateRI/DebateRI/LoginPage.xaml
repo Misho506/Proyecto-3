@@ -3,19 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.LoginPage"
              Title="Ingresar"
-             BackgroundColor="#43A047">
+             BackgroundColor="#F5F5F5">
   <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" Padding="30, 120, 30, 20">
     <StackLayout VerticalOptions="FillAndExpand"
        HorizontalOptions="FillAndExpand"
        Orientation="Vertical"
-       Spacing="15">
+       Spacing="7"
+       BackgroundColor="#F5F5F5">
+      <Image
+            HorizontalOptions="Center"
+        Source="LogoULatina.jpeg"  />
+      
+      <Label Text="Por favor ingrese su correo y contraseña:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Entry x:Name="emailText" Text="maurisho01@gmail.com" Placeholder="Correo Electronico" TextColor="#212121"/>
+      <Entry x:Name="passwordText" Text="12345" Placeholder="Contraseña" IsPassword="True" TextColor="#212121"/>
+      <Button x:Name="loginButton" Text="Ingresar" Clicked="OnLogin" TextColor="White" BackgroundColor="#43A047"/>
 
-      <Label Text="Por favor ingrese su correo y contraseña:" TextColor="#ffffff" FontSize="18"/>
-      <Entry x:Name="emailText" Placeholder="Correo Electronico" />
-      <Entry x:Name="passwordText" Placeholder="Contraseña" IsPassword="True" />
-      <Button x:Name="loginButton" Text="Ingresar" Clicked="OnLogin"/>
-
-      <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup"/>
+      <Button x:Name="signupButton" Text="Crear cuenta" Clicked="OnSignup" TextColor="White" BackgroundColor="#43A047"/>
 
     </StackLayout>
   </ScrollView>
