@@ -2,22 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Teams.AddTeamDebaters">
-  <StackLayout>
-    <Label x:Name="TeamDebaters" FontSize="Medium" FontAttributes="Bold" />
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label x:Name="TeamDebaters"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242" />
     <SearchBar x:Name="SearchBarDebaters"
-               SearchButtonPressed = "SearchTeam_OnSearchButtonPressed"/>
+               SearchButtonPressed = "SearchTeam_OnSearchButtonPressed"
+               TextColor="#424242"/>
     <ListView x:Name="ContactsListView" />
 
-    <StackLayout>
-      <Label x:Name="Team1" Text="Grupo 1"/>
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Label x:Name="Team1" Text="Grupo 1"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam1ListView"/>
       <!--<Button x:Name="SendEmail1" Text="Invitar Grupo1"/>-->
-    </StackLayout>
-    <StackLayout>
-      <Label x:Name="Team2" Text="Grupo 2"/>
+    </StackLayout >
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Label x:Name="Team2" Text="Grupo 2"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam2ListView"/>
       <!--<Button x:Name="SendEmail2" Text="Invitar Grupo2"/>-->
     </StackLayout>
-    <Button x:Name="addAdvisors" Text="Agregar asesores" Clicked="AddAdvisorsClicked"/>
+    <Button x:Name="addAdvisors" Text="Agregar asesores" Clicked="AddAdvisorsClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

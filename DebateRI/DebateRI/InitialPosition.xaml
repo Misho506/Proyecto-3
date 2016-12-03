@@ -13,7 +13,7 @@
 
     <Label Text="De su posición inicial" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
 
-    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="OnPass" TextColor="White" BackgroundColor="#43A047"/>
+    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="ArgumentationClicked" TextColor="White" BackgroundColor="#43A047"/>
 
   </StackLayout>
 </ContentPage>

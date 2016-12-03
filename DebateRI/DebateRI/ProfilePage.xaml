@@ -9,7 +9,6 @@
        Spacing="15"
        BackgroundColor="#F5F5F5">
     <Label x:Name="nameLabel" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
-    <!--<Label x:Name="ruleLabel" Text="{Binding App.currentRule.description}" VerticalOptions="Center" HorizontalOptions="Center" />-->
     <Button x:Name="showSession" Text="Sesiones" Clicked="ShowSessionClicked" TextColor="White" BackgroundColor="#43A047"/>
     <Button x:Name="AddRule" Text="Reglamento de vestimenta" Clicked="AddRuleClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>

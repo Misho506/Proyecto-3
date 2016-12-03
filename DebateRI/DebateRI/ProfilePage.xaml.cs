@@ -25,7 +25,7 @@ namespace DebateRI
         }
         async void ShowSessionClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new SessionPage());
+            await Navigation.PushAsync(new InitialPosition());
         }
 
     }

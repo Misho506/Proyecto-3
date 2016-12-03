@@ -14,9 +14,9 @@ namespace DebateRI
         {
             InitializeComponent();
         }
-        async void OnPass(object sender, EventArgs e)
+        async void ArgumentationClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Argumentation());
+            await Navigation.PushAsync(new Argumentation());
         }
     }
 }

@@ -11,7 +11,7 @@
        Spacing="7"
        BackgroundColor="#F5F5F5">
       <Image
-            HorizontalOptions="Center"
+        HorizontalOptions="Center"
         Source="LogoULatina.jpeg"  />
       
       <Label Text="Por favor ingrese su correo y contraseña:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
