@@ -77,13 +77,16 @@
     <Compile Include="Mains\MainPublic.xaml.cs">
       <DependentUpon>MainPublic.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewArgumentation.xaml.cs">
+      <DependentUpon>NewArgumentation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ProfilePage.xaml.cs">
       <DependentUpon>ProfilePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Role.cs" />
-    <Compile Include="Conclution.xaml.cs">
-      <DependentUpon>Conclution.xaml</DependentUpon>
+    <Compile Include="Closure.xaml.cs">
+      <DependentUpon>Closure.xaml</DependentUpon>
     </Compile>
     <Compile Include="InitialPosition.xaml.cs">
       <DependentUpon>InitialPosition.xaml</DependentUpon>
@@ -234,7 +237,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Conclution.xaml">
+    <EmbeddedResource Include="Closure.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -271,6 +274,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddRule.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NewArgumentation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DebateRI.Argumentation"
-             Title="Argumentaciones">
-  <StackLayout BackgroundColor="#F5F5F5">
+             x:Class="DebateRI.NewArgumentation">
+   <StackLayout BackgroundColor="#F5F5F5">
     <StackLayout>
     <Label x:Name="minutes" Text="Minutos para hablar" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
     <Label x:Name="timeLabel" Text="Tiempo: " FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
@@ -15,6 +14,6 @@
     <Button x:Name="Stop" Text="Pausar" Clicked="StopClicked" TextColor="White" BackgroundColor="#43A047"/>
     </StackLayout>
 
-    <Button x:Name="Next" Text="Preguntas" Clicked="QuestionPageClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Button x:Name="Next" Text="Conclusión" Clicked="ClosurePageCliked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

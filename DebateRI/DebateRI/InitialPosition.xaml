@@ -12,8 +12,12 @@
     BackgroundColor="#F5F5F5">
 
     <Label Text="De su posición inicial" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
-
-    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="ArgumentationClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Label x:Name="positionLBL" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <Entry x:Name="entryPosition" TextColor="#212121"/>
+    <Entry x:Name="entryPosition" TextColor="#212121"/>
+    <Button Text="Enviar" Clicked="SendInitialPosition" TextColor="White" BackgroundColor="#43A047"/>
+    
+    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="ArgumentationPageClicked" TextColor="White" BackgroundColor="#43A047"/>
 
   </StackLayout>
 </ContentPage>

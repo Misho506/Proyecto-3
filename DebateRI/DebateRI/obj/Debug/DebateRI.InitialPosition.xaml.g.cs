@@ -17,8 +17,16 @@ namespace DebateRI {
     public partial class InitialPosition : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label positionLBL;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry entryPosition;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(InitialPosition));
+            positionLBL = this.FindByName<global::Xamarin.Forms.Label>("positionLBL");
+            entryPosition = this.FindByName<global::Xamarin.Forms.Entry>("entryPosition");
         }
     }
 }

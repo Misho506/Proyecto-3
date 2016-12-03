@@ -14,7 +14,7 @@ namespace DebateRI {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class Argumentation : global::Xamarin.Forms.ContentPage {
+    public partial class NewArgumentation : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label minutes;
@@ -42,7 +42,7 @@ namespace DebateRI {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(Argumentation));
+            this.LoadFromXaml(typeof(NewArgumentation));
             minutes = this.FindByName<global::Xamarin.Forms.Label>("minutes");
             timeLabel = this.FindByName<global::Xamarin.Forms.Label>("timeLabel");
             AddMin = this.FindByName<global::Xamarin.Forms.Button>("AddMin");
