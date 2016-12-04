@@ -8,7 +8,7 @@
                SearchButtonPressed = "OnSearchButtonPressed"
                TextColor="#424242"/>
     <ListView x:Name="ContactsListView" />
-    <Button Text="Agregar al grupo 2" Clicked="ChangeTeamButtonClicked"/>
+    <Button Text="Agregar al grupo 2" Clicked="ChangeTeamButtonClicked" TextColor="White" BackgroundColor="#43A047"/>
 
     <StackLayout BackgroundColor="#F5F5F5">
       <Label x:Name="Team1" Text="Grupo 1"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
