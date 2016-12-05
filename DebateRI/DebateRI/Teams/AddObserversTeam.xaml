@@ -20,6 +20,6 @@
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
     
-    <Button x:Name="backMain" Text="Agregar asesores" Clicked="BackMainClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Button x:Name="backMain" Text="Finalizar creación" Clicked="BackMainClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

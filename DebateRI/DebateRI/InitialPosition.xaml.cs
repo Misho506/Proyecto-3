@@ -17,7 +17,9 @@ namespace DebateRI
         }
         void SendInitialPosition(object sender, EventArgs e)
         {
+            
             positionLBL.Text = entryPosition.Text;
+            entryPosition.Text = "";
             entryPosition.Placeholder = "'Posición inicial'";
         }
         async void ArgumentationPageClicked(object sender, EventArgs e)

@@ -2,8 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.AddRule">
-  <Label Text="Reglamente de vestimenta:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
-  <Label Text="Reglamento" x:Name="confirmedRule" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" />
+  <StackLayout VerticalOptions="FillAndExpand"
+       HorizontalOptions="FillAndExpand"
+       Orientation="Vertical"
+       Spacing="15"
+       BackgroundColor="#F5F5F5">
+  <Label Text="Reglamente de vestimenta:" FontSize="24" FontAttributes="Bold" TextColor="#424242"/>
+  <Label Text="Reglamento" x:Name="confirmedRule" FontSize="18" FontAttributes="Bold" TextColor="#424242" />
   <Entry x:Name="newRule" Placeholder="'Reglamento'" TextColor="#212121"/>
   <Button Text="Crear Reglamento" Clicked="CreateRuleClicked" TextColor="White" BackgroundColor="#43A047"/>
+  </StackLayout>
 </ContentPage>

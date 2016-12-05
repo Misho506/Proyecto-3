@@ -19,7 +19,8 @@ namespace DebateRI
         void CreateRuleClicked(object sender, EventArgs args)
         {
             confirmedRule.Text = newRule.Text;
-            App.currentRule.description = confirmedRule.Text;
+            //App.currentRule.description = confirmedRule.Text;
+            newRule.Text = "";
             newRule.Placeholder = "Reglamento";
         }
     }

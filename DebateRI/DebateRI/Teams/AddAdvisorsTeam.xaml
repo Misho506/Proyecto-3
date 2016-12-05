@@ -19,6 +19,6 @@
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
 
-    <Button x:Name="addObservers" Text="Agregar asesores" Clicked="AddObserversClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Button x:Name="addObservers" Text="Agregar observadores" Clicked="AddObserversClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

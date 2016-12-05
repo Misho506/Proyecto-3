@@ -13,6 +13,7 @@ namespace DebateRI
     {
         int minutesCounter = 0;
         int trigger = 0;
+        bool stop = false;
         public Argumentation()
         {
             InitializeComponent();
@@ -27,10 +28,12 @@ namespace DebateRI
         }
         void StopClicked(object sender, EventArgs e)
         {
+            stop = true;
             sw.Stop();
         }
         void RestarClicked(object sender, EventArgs e)
         {
+            stop = false;
             sw.Restart();
         }
 
@@ -53,6 +56,8 @@ namespace DebateRI
         }
         void StarClicked(object sender, EventArgs args)
         {
+            int elapsedSec = 0;
+            int elapsedMin = 0;
             if (trigger == 0)
             {
                 trigger++;
@@ -62,12 +67,17 @@ namespace DebateRI
                 sw.Restart();
                 Device.StartTimer(TimeSpan.FromMilliseconds(1000), () =>
                 {
-
-                    sw.Start();
-                    int elapsedSec = (int)sw.ElapsedMilliseconds / 1000 % 60;
-                    int elapsedMin = (int)sw.ElapsedMilliseconds / 1000 / 60;
-                    timeLabel.Text = "Tiempo: \n" + elapsedMin + "m " + elapsedSec + "s";
-
+                    if (stop == true)
+                    {
+                        sw.Stop();
+                    }
+                    else
+                    {
+                        sw.Start();
+                         elapsedSec = (int)sw.ElapsedMilliseconds / 1000 % 60;
+                         elapsedMin = (int)sw.ElapsedMilliseconds / 1000 / 60;
+                        timeLabel.Text = "Tiempo: \n" + elapsedMin + "m " + elapsedSec + "s";
+                    }
                     if (elapsedMin == minutesCounter)
                     {
                         return false;
