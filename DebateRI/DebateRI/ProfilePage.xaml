@@ -6,10 +6,11 @@
   <StackLayout VerticalOptions="FillAndExpand"
        HorizontalOptions="FillAndExpand"
        Orientation="Vertical"
-       Spacing="15">
-    <Label x:Name="nameLabel" Text="{Binding App.currentUser.role.roleId}" VerticalOptions="Center" HorizontalOptions="Center" />
-    <!--<Label x:Name="ruleLabel" Text="{Binding App.currentRule.description}" VerticalOptions="Center" HorizontalOptions="Center" />-->
-    <!--<Button x:Name="AddRule" Text="Editar reglamento de vestimenta" Clicked="AddRuleClicked"/>-->
+       Spacing="15"
+       BackgroundColor="#F5F5F5">
+    <Label x:Name="nameLabel" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <Button x:Name="showSession" Text="Sesiones" Clicked="ShowSessionClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <Button x:Name="AddRule" Text="Reglamento de vestimenta" Clicked="AddRuleClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
   
 </ContentPage>

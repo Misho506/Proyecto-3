@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DebateRI.Closure"
+             Title="Conclusión">
+  
+  <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="0,75,0,20" Spacing="10" BackgroundColor="#F5F5F5">
+
+    <Label x:Name="ClosureLBL" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" />
+    <Entry x:Name="entryClosure" TextColor="#212121"/>
+    <Button Text="Crear conclusion" Clicked="SendClosure" TextColor="White" BackgroundColor="#43A047"/>
+    
+    <Button Text="Finalizar Debate" Clicked="EndingDebate" TextColor="White" BackgroundColor="#43A047"/>
+  </StackLayout>
+</ContentPage>

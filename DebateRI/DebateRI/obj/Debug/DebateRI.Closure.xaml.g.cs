@@ -14,19 +14,19 @@ namespace DebateRI {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class Conclution : global::Xamarin.Forms.ContentPage {
+    public partial class Closure : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label ConclutionLBL;
+        private global::Xamarin.Forms.Label ClosureLBL;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry entryConclution;
+        private global::Xamarin.Forms.Entry entryClosure;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(Conclution));
-            ConclutionLBL = this.FindByName<global::Xamarin.Forms.Label>("ConclutionLBL");
-            entryConclution = this.FindByName<global::Xamarin.Forms.Entry>("entryConclution");
+            this.LoadFromXaml(typeof(Closure));
+            ClosureLBL = this.FindByName<global::Xamarin.Forms.Label>("ClosureLBL");
+            entryClosure = this.FindByName<global::Xamarin.Forms.Entry>("entryClosure");
         }
     }
 }

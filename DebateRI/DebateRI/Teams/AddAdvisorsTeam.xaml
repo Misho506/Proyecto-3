@@ -2,22 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Teams.AddAdvisorsTeam">
-  <StackLayout>
-    <Label x:Name="TeamAdvisors" FontSize="Medium" FontAttributes="Bold" />
-    <SearchBar x:Name="SearchBarAdvisors"
-               SearchButtonPressed = "OnSearchButtonPressed"/>
+  <StackLayout BackgroundColor="#F5F5F5">
+    <Label x:Name="TeamAdvisors" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+           <SearchBar x:Name="SearchBarAdvisors"
+               SearchButtonPressed = "OnSearchButtonPressed"
+               TextColor="#424242"/>
     <ListView x:Name="ContactsListView" />
 
-    <StackLayout>
-      <Label x:Name="Team1" Text="Grupo 1"/>
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Label x:Name="Team1" Text="Grupo 1" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam1ListView" />
     </StackLayout>
 
-    <StackLayout>
-      <Label x:Name="Team2" Text="Grupo 2"/>
+    <StackLayout BackgroundColor="#F5F5F5">
+      <Label x:Name="Team2" Text="Grupo 2" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
 
-    <Button x:Name="addObservers" Text="Agregar asesores" Clicked="AddObserversClicked"/>
+    <Button x:Name="addObservers" Text="Agregar asesores" Clicked="AddObserversClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

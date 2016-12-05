@@ -20,9 +20,17 @@ namespace DebateRI {
         private global::Xamarin.Forms.Label nameLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button showSession;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button AddRule;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ProfilePage));
             nameLabel = this.FindByName<global::Xamarin.Forms.Label>("nameLabel");
+            showSession = this.FindByName<global::Xamarin.Forms.Button>("showSession");
+            AddRule = this.FindByName<global::Xamarin.Forms.Button>("AddRule");
         }
     }
 }

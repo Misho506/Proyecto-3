@@ -9,21 +9,19 @@ using Xamarin.Forms;
 
 namespace DebateRI
 {
-    public partial class Argumentation : ContentPage
+    public partial class NewArgumentation : ContentPage
     {
         int minutesCounter = 0;
         int trigger = 0;
-        public Argumentation()
+        public NewArgumentation()
         {
             InitializeComponent();
             sw.Stop();
-                
         }
-
         public static Stopwatch sw = new Stopwatch();
-        async void QuestionPageClicked(object sender, EventArgs e)
+        async void ClosurePageCliked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new QuestionStage());
+            await Navigation.PushAsync(new Closure());
         }
         void StopClicked(object sender, EventArgs e)
         {

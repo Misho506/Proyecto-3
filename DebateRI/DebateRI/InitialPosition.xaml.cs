@@ -13,10 +13,16 @@ namespace DebateRI
         public InitialPosition()
         {
             InitializeComponent();
+            entryPosition.Placeholder = "'Posición inicial'";
         }
-        async void OnPass(object sender, EventArgs e)
+        void SendInitialPosition(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Argumentation());
+            positionLBL.Text = entryPosition.Text;
+            entryPosition.Placeholder = "'Posición inicial'";
+        }
+        async void ArgumentationPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Argumentation());
         }
     }
 }

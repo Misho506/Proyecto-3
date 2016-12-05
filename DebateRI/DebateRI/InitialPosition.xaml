@@ -8,11 +8,16 @@
     HorizontalOptions="FillAndExpand"
     Orientation="Vertical"
     Padding="0,75,0,20"
-    Spacing="10">
+    Spacing="10" 
+    BackgroundColor="#F5F5F5">
 
-    <Label Text="De su posición inicial"  TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"  />
-
-    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="OnPass" TextColor="Green" />
+    <Label Text="De su posición inicial" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <Label x:Name="positionLBL" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <Entry x:Name="entryPosition" TextColor="#212121"/>
+    <Entry x:Name="entryPosition" TextColor="#212121"/>
+    <Button Text="Enviar" Clicked="SendInitialPosition" TextColor="White" BackgroundColor="#43A047"/>
+    
+    <Button Text="Pasar a la fase de argumentaciones" VerticalOptions="EndAndExpand" Clicked="ArgumentationPageClicked" TextColor="White" BackgroundColor="#43A047"/>
 
   </StackLayout>
 </ContentPage>
