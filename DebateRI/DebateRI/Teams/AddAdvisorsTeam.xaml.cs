@@ -86,6 +86,8 @@ namespace DebateRI.Teams
             ContactsListView.ItemSelected += OnItemSelected;
             SelectedTeam1ListView.ItemSelected += SendEmailForSelectedContact;
             SelectedTeam2ListView.ItemSelected += SendEmailForSelectedContact;
+            Team1.Text = App.currentNameTeam1;
+            Team2.Text = App.currentNameTeam2;
         }
         private void OnSearchButtonPressed(object sender, EventArgs e)
         {

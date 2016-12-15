@@ -26,13 +26,13 @@ namespace DebateRI.Teams {
         private global::Xamarin.Forms.ListView ContactsListView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label Team1;
+        private global::Xamarin.Forms.Entry nameTeam1;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView SelectedTeam1ListView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label Team2;
+        private global::Xamarin.Forms.Entry nameTeam2;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView SelectedTeam2ListView;
@@ -46,9 +46,9 @@ namespace DebateRI.Teams {
             TeamDebaters = this.FindByName<global::Xamarin.Forms.Label>("TeamDebaters");
             SearchBarDebaters = this.FindByName<global::Xamarin.Forms.SearchBar>("SearchBarDebaters");
             ContactsListView = this.FindByName<global::Xamarin.Forms.ListView>("ContactsListView");
-            Team1 = this.FindByName<global::Xamarin.Forms.Label>("Team1");
+            nameTeam1 = this.FindByName<global::Xamarin.Forms.Entry>("nameTeam1");
             SelectedTeam1ListView = this.FindByName<global::Xamarin.Forms.ListView>("SelectedTeam1ListView");
-            Team2 = this.FindByName<global::Xamarin.Forms.Label>("Team2");
+            nameTeam2 = this.FindByName<global::Xamarin.Forms.Entry>("nameTeam2");
             SelectedTeam2ListView = this.FindByName<global::Xamarin.Forms.ListView>("SelectedTeam2ListView");
             addAdvisors = this.FindByName<global::Xamarin.Forms.Button>("addAdvisors");
         }

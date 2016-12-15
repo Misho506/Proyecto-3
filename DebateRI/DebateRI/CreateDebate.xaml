@@ -7,7 +7,13 @@
   <StackLayout BackgroundColor="#F5F5F5">
     <Label Text="Nombre:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
     <Entry x:Name="debateName" Placeholder="'Nombre del debate'" TextColor="#212121"/>
-
+    
+    <Label Text="Fecha:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <DatePicker x:Name="debateDate"  VerticalOptions="FillAndExpand"/>
+    
+    <Label Text="Hora:" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+    <TimePicker x:Name="debateTime"  VerticalOptions="FillAndExpand"/>
+    
     <Label Text="Sesiones del debate: " FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
     <ListView x:Name="debateSessions" VerticalOptions="FillAndExpand" />
 

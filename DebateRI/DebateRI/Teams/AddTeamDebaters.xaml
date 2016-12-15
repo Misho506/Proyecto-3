@@ -10,12 +10,12 @@
     <ListView x:Name="ContactsListView" />
 
     <StackLayout BackgroundColor="#F5F5F5">
-      <Label x:Name="Team1" Text="Grupo 1"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Entry x:Name="nameTeam1" Placeholder="Ingrese el nombre del grupo1" TextColor="#212121"/>
       <ListView x:Name="SelectedTeam1ListView"/>
       <!--<Button x:Name="SendEmail1" Text="Invitar Grupo1"/>-->
     </StackLayout >
     <StackLayout BackgroundColor="#F5F5F5">
-      <Label x:Name="Team2" Text="Grupo 2"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Entry x:Name="nameTeam2" Placeholder="Ingrese el nombre del grupo1"  TextColor="#212121"/>
       <ListView x:Name="SelectedTeam2ListView"/>
       <!--<Button x:Name="SendEmail2" Text="Invitar Grupo2"/>-->
     </StackLayout>

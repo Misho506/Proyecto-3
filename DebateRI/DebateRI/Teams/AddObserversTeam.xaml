@@ -11,12 +11,12 @@
     <Button Text="Agregar al grupo 2" Clicked="ChangeTeamButtonClicked" TextColor="White" BackgroundColor="#43A047"/>
 
     <StackLayout BackgroundColor="#F5F5F5">
-      <Label x:Name="Team1" Text="Grupo 1"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Label x:Name="Team1"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam1ListView" />
     </StackLayout>
 
     <StackLayout BackgroundColor="#F5F5F5">
-      <Label x:Name="Team2" Text="Grupo 2"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
+      <Label x:Name="Team2" Text="{Binding App.currentNameTeam2}"  FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
       <ListView x:Name="SelectedTeam2ListView" />
     </StackLayout>
     

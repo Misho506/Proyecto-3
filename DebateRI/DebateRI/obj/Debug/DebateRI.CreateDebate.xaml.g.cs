@@ -20,12 +20,20 @@ namespace DebateRI {
         private global::Xamarin.Forms.Entry debateName;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.DatePicker debateDate;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.TimePicker debateTime;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView debateSessions;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CreateDebate));
             debateName = this.FindByName<global::Xamarin.Forms.Entry>("debateName");
+            debateDate = this.FindByName<global::Xamarin.Forms.DatePicker>("debateDate");
+            debateTime = this.FindByName<global::Xamarin.Forms.TimePicker>("debateTime");
             debateSessions = this.FindByName<global::Xamarin.Forms.ListView>("debateSessions");
         }
     }
