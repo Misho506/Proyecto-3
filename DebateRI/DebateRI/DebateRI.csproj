@@ -54,6 +54,7 @@
       <DependentUpon>DebatesMainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entities\Debate.cs" />
+    <Compile Include="Entities\Mensaje.cs" />
     <Compile Include="Entities\Rule.cs" />
     <Compile Include="Entities\Session.cs" />
     <Compile Include="Entities\Team.cs" />

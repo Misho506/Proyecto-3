@@ -13,11 +13,13 @@
 
     <Label Text="Preguntas" TextColor="Green" FontSize="22" HorizontalOptions="CenterAndExpand"/>
 
-    <Entry x:Name="Question" Placeholder="Digite su pregunta" />
+    <Entry x:Name="entQuestion" Placeholder="Digite su pregunta" />
     <Button Text="Envie su pregunta" Clicked="SendQuestionCliked"/>
     <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
+
+    <Button Text="Pasar a la conclusion" />
+    <Button Text="Devolverse a las argumentaciones"/>
   </StackLayout>
-  <Button Text="Pasar a la conclusion" />
-  <Button Text="Devolverse a las argumentaciones"/>
+
   
 </ContentPage>

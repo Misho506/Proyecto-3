@@ -17,7 +17,7 @@ namespace DebateRI {
     public partial class QuestionStage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry Question;
+        private global::Xamarin.Forms.Entry entQuestion;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView listView;
@@ -25,7 +25,7 @@ namespace DebateRI {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(QuestionStage));
-            Question = this.FindByName<global::Xamarin.Forms.Entry>("Question");
+            entQuestion = this.FindByName<global::Xamarin.Forms.Entry>("entQuestion");
             listView = this.FindByName<global::Xamarin.Forms.ListView>("listView");
         }
     }
