@@ -20,7 +20,7 @@ namespace DebateRI
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new Argumentation());
         }
 
         protected override void OnStart()
