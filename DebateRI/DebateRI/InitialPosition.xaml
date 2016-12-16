@@ -10,10 +10,10 @@
     Padding="0,75,0,20"
     Spacing="10" 
     BackgroundColor="#F5F5F5">
+    
+    <Label Text="De su posición inicial" FontSize="24" FontAttributes="Bold" TextColor="#424242"/>
 
-    <Label Text="De su posición inicial" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
-    <Label x:Name="positionLBL" FontSize="Medium" FontAttributes="Bold" TextColor="#424242"/>
-    <Entry x:Name="entryPosition" TextColor="#212121"/>
+    <Label x:Name="positionLBL" FontSize="18" FontAttributes="Bold" TextColor="#424242"/>
     <Entry x:Name="entryPosition" TextColor="#212121"/>
     <Button Text="Enviar" Clicked="SendInitialPosition" TextColor="White" BackgroundColor="#43A047"/>
     

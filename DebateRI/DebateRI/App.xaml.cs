@@ -13,6 +13,8 @@ namespace DebateRI
         public static User currentUser { get; set; }
 
         public static Rule currentRule { get; set; }
+        public static string currentNameTeam1 { get; set; }
+        public static string currentNameTeam2 { get; set; }
 
         public App()
         {

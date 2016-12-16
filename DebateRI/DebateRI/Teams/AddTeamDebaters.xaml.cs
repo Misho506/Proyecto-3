@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using DebateRI.Entities;
 
 using Xamarin.Forms;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace DebateRI.Teams
 {
     public partial class AddTeamDebaters : ContentPage
     {
+        //HttpClient httpClient;
         List<User> team1 = new List<User>();
         List<User> team2 = new List<User>();
         int counter = 6;
@@ -82,12 +85,48 @@ namespace DebateRI.Teams
 
         public AddTeamDebaters()
         {
+
+            //httpClient = new HttpClient();
+            //try
+            //{
+            //    //La URL de el web service
+            //    string resourceAddress = "http://45.55.128.241:8080/DebateRI/v1/users";
+            //    //El response que va a ser igual a hacer el request POST
+            //    HttpResponseMessage wcfResponse =  httpClient.GetAsync(resourceAddress, new StringContent(postBody, Encoding.UTF8, "application/json"));
+            //    //El response en formato JSON guardado en un string
+            //    string responseBody =  wcfResponse.Content.ReadAsStringAsync();
+            //    //El string del response convertido a un objeto de C#
+            //    //Ya en este punto se tiene el objeto desde el Web Service
+            //    JSONResponse jr = JsonConvert.DeserializeObject<JSONResponse>(responseBody);
+
+            //    if (jr.error)
+            //         DisplayAlert("Error", jr.description, "ok");
+            //    else
+            //    {
+            //        wcfResponse =  httpClient.GetAsync(resourceAddressEmail);
+            //        responseBody =  wcfResponse.Content.ReadAsStringAsync();
+            //        User returnedUser = JsonConvert.DeserializeObject<User>(responseBody);
+            //        List<User> listU = new List<User>();
+            //        listU.Add(returnedUser);
+
+            //    }
+            //}
+            //finally
+            //{
+            //    if (httpClient != null)
+            //    {
+            //        httpClient.Dispose();
+            //        httpClient = null;
+            //    }
+            //}
+
             InitializeComponent();
             TeamDebaters.Text = "Tienes que agregar '" + counter + "' Debatientes";
             ContactsListView.ItemsSource = User;
             ContactsListView.ItemSelected += OnItemSelected;
             SelectedTeam1ListView.ItemSelected += SendEmailForSelectedContact;
             SelectedTeam2ListView.ItemSelected += SendEmailForSelectedContact;
+            
 
         }
         private void SearchTeam_OnSearchButtonPressed(object sender, EventArgs e)
@@ -98,6 +137,8 @@ namespace DebateRI.Teams
         }
         async void AddAdvisorsClicked(object sender, EventArgs e)
         {
+            App.currentNameTeam1 = nameTeam1.Text;
+            App.currentNameTeam2 = nameTeam2.Text;
             await Navigation.PushAsync(new AddAdvisorsTeam());
         }
     }
