@@ -7,8 +7,8 @@
        Orientation="Vertical"
        Spacing="15"
        BackgroundColor="#F5F5F5">
-  <Label Text="Reglamente de vestimenta:" FontSize="24" FontAttributes="Bold" TextColor="#424242"/>
-  <Label Text="Reglamento" x:Name="confirmedRule" FontSize="18" FontAttributes="Bold" TextColor="#424242" />
+  <Label Text="Reglamente de vestimenta" FontSize="24" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="Center" />
+  <Label Text="Reglamento:" x:Name="confirmedRule" FontSize="25" FontAttributes="Bold" TextColor="#424242"  />
   <Entry x:Name="newRule" Placeholder="'Reglamento'" TextColor="#212121"/>
   <Button Text="Crear Reglamento" Clicked="CreateRuleClicked" TextColor="White" BackgroundColor="#43A047"/>
   </StackLayout>

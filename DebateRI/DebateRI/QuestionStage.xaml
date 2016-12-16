@@ -7,17 +7,17 @@
   <StackLayout VerticalOptions="FillAndExpand"
    HorizontalOptions="FillAndExpand"
    Orientation="Vertical"
-   Padding="0,35,0,0"
+   Padding="0,35,0,40"
    Spacing="10"
    BackgroundColor="#F5F5F5">
 
-    <StackLayout>
+    <StackLayout Padding="0,0,0,0">
     <Label Text="Preguntas" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
 
     <Entry x:Name="Question" Placeholder="Digite su pregunta" TextColor="#212121"/>
     <Button Text="Envie su pregunta" Clicked="SendQuestionCliked" TextColor="White" BackgroundColor="#43A047"/>
     <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
-  </StackLayout>
-  <Button Text="Nuevas Argumentaciones" TextColor="White" Clicked="NewArgumentationCliked" BackgroundColor="#43A047"/>
+  </StackLayout >
+      <Button Text="Nuevas Argumentaciones" TextColor="White" Clicked="NewArgumentationCliked" BackgroundColor="#43A047"/>
   </StackLayout>
 </ContentPage>

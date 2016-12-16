@@ -29,10 +29,10 @@ namespace DebateRI {
         private global::Xamarin.Forms.Button LessMin;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button Star;
+        private global::Xamarin.Forms.Button Restar;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button Restar;
+        private global::Xamarin.Forms.Button Star;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button Stop;
@@ -47,8 +47,8 @@ namespace DebateRI {
             timeLabel = this.FindByName<global::Xamarin.Forms.Label>("timeLabel");
             AddMin = this.FindByName<global::Xamarin.Forms.Button>("AddMin");
             LessMin = this.FindByName<global::Xamarin.Forms.Button>("LessMin");
-            Star = this.FindByName<global::Xamarin.Forms.Button>("Star");
             Restar = this.FindByName<global::Xamarin.Forms.Button>("Restar");
+            Star = this.FindByName<global::Xamarin.Forms.Button>("Star");
             Stop = this.FindByName<global::Xamarin.Forms.Button>("Stop");
             Next = this.FindByName<global::Xamarin.Forms.Button>("Next");
         }

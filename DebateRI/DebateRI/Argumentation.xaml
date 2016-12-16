@@ -3,18 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DebateRI.Argumentation"
              Title="Argumentaciones">
-  <StackLayout BackgroundColor="#F5F5F5">
-    <StackLayout>
-    <Label x:Name="minutes" Text="Minutos para hablar" FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
-    <Label x:Name="timeLabel" Text="Tiempo: " FontSize="Medium" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
-    <Button x:Name="AddMin" Text="Agregar un minuto" Clicked="AddMinClicked" TextColor="White" BackgroundColor="#43A047"/>
-    <Button x:Name="LessMin" Text="Quitar un minuto" Clicked="LessMinClicked" TextColor="White" BackgroundColor="#43A047"/>
+    <StackLayout  BackgroundColor="#F5F5F5" Padding="0,20,0,30">
+    <Label x:Name="minutes" Text="Argumentación"  FontSize="30" FontAttributes="Bold" TextColor="#1B5E20" HorizontalOptions="CenterAndExpand" VerticalOptions="End"/>
+    <Label x:Name="timeLabel" Text="Tiempo: " FontSize="24" FontAttributes="Bold" TextColor="#424242" HorizontalOptions="CenterAndExpand"/>
       
-    <Button x:Name="Star" Text="Iniciar conteo" Clicked="StarClicked" TextColor="White" BackgroundColor="#43A047"/>
-    <Button x:Name="Restar" Text="Reiniciar" Clicked="RestarClicked" TextColor="White" BackgroundColor="#43A047"/>
-    <Button x:Name="Stop" Text="Pausar" Clicked="StopClicked" TextColor="White" BackgroundColor="#43A047"/>
-    </StackLayout>
+      <StackLayout/>
+      
+      <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center" Orientation="Horizontal" Padding="0,20,0,0" >
+    <Button x:Name="AddMin" Text="Agregar un minuto" Clicked="AddMinClicked" FontSize="16"  TextColor="White" BackgroundColor="#43A047"  VerticalOptions="End"/>
+    <Button x:Name="LessMin" Text="Quitar un minuto" Clicked="LessMinClicked" FontSize="16"  TextColor="White" BackgroundColor="#43A047"  VerticalOptions="End"/>
+      </StackLayout>
 
-    <Button x:Name="Next" Text="Preguntas" Clicked="QuestionPageClicked" TextColor="White" BackgroundColor="#43A047"/>
-  </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,10,0,0">
+          <Button x:Name="Restar" Text="Reiniciar" Clicked="RestarClicked" FontSize="22"  TextColor="White" BackgroundColor="#43A047"  VerticalOptions="End"/>
+          <Button x:Name="Star" Text="Iniciar" Clicked="StarClicked" FontSize="22"  TextColor="White" BackgroundColor="#43A047"  VerticalOptions="End"/>
+          <Button x:Name="Stop" Text="Pausar" Clicked="StopClicked" FontSize="22"  TextColor="White" BackgroundColor="#43A047"  VerticalOptions="End"/>
+
+        </StackLayout>
+
+      <StackLayout Padding="0,0,20,0">
+        
+      </StackLayout>
+        <Button x:Name="Next" Text="Preguntas" Clicked="QuestionPageClicked" FontSize="19" TextColor="White" BackgroundColor="#43A047"  VerticalOptions="EndAndExpand"/>
+      </StackLayout>
+
 </ContentPage>
